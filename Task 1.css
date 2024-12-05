@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url("bg3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    border-radius: 50px;
+}
+.navbar .logo:hover{
+    background-color: lightcoral;
+    box-shadow: 0 0 15px lightcoral;
+    color: pink;
+}
+ul{
+    margin-top: 1.5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: 1.5%;
+}
+ul li a:hover{
+    color: red;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    
+}   
+.info h1{
+    font-size: 65px;
+    color: rgb(36, 32, 30);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.info span{
+    color: rgb(241, 7, 179) ;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(48, 143, 137);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    background-color: rgb(133, 101, 241);
+    box-shadow: 0 0 10px rgb(138, 56, 177);
+}
+
+.image img{
+    height: 350px;
+    width: 250px;
+    right:260px;
+    top: 200px;
+    position: absolute;
+    border: 10px solid navy;
+    border-radius: 50px;
+
+}
+.image :hover{
+    background-color: rgb(227, 231, 39);
+    box-shadow: 0 0 15px rgb(220, 230, 30);
+    color: rgb(213, 227, 18);
+}
+.contact{
+    padding: 10px 28px;
+    background-color:rgb(121, 197, 245);
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: orangered;
+    box-shadow: 0 0 15px orangered;
+    color: white;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 50px;
+    color: orangered;
+}
+.home-content h1{
+    font-size: 62px;
+}
+.home-content p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-content span{
+    color: rgb(7, 15, 241) ;
+}
+.skills{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.skill-content{
+    max-width: 800px;
+}
+.skill-content h3{
+    font-size: 25px;
+    color: black;
+}
+.skill-content h2{
+    font-size: 50px;
+    color: orangered;
+    text-decoration: underline;
+}
+.skill-content span{
+    font-size:30px;
+    color: darkviolet;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgba(70, 70, 235, 0.515);
+
+
+
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: rgb(0, 119, 255);
+    border: 2px solid rgb(255, 0, 38);
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: 12px;
+    color: white;
+}
